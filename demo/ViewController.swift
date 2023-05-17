@@ -13,7 +13,7 @@ class ViewController: UIViewController {
         let v = AudioView()
         v.backgroundColor = UIColor.init(red: 0.96, green: 0.96, blue: 0.96, alpha: 1)
         v.layer.cornerRadius = 6.0
-        v.setData(urlString: "")
+        v.setData(urlString: "xxxxxxxxxxx.mp3")
         self.view.addSubview(v)
         
         v.snp.makeConstraints { make in
